@@ -8,6 +8,10 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Poppins', sans-serif;
     background-color:#E1F5FE;
@@ -16,7 +20,7 @@ body{
 
 p{
     font-family: 'Poppins',cursive,Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: normal;
 }
 
@@ -48,20 +52,28 @@ p{
     margin-right: 10px;
 }
 
+/*.main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(14,19,20);
+    height: 40px;
+    line-height: 40px;
+}*/
+
 
  .nav-wrapper ul li{
     float: left;
-    width:14.2em;
+    width:14.5em;
     height: 40px;
     background-color: rgb(14, 19, 20) !important;
     line-height: 40px;
     opacity: .9;
     text-align: center;
     font-size: 15px;
-    margin-right: 10px;
+    margin-right: 3px;
     font-family: 'Montserrat Alternates', sans-serif;
     list-style: none;
-  
 }
 
 ul li a {
@@ -343,7 +355,7 @@ label{
 }
 
 input[type=text], input[type=email], input[type=tel] {
-    width:70%;
+    width:50%;
     padding: 5px 5px;
     margin: 8px 0;
     box-sizing: border-box;
@@ -359,8 +371,8 @@ input[type=text], input[type=email], input[type=tel] {
   }
 
 
-  input[type=textarea] {
-    width: 100%;
+  input[type=textarea]{
+    width: 50%;
     height: 150px;
     padding: 5px 5px;
     box-sizing: border-box;
@@ -371,7 +383,7 @@ input[type=text], input[type=email], input[type=tel] {
   }
 
 
- .info button {
+ .info button{
     background-color: #999900;
     border: none;
     color: white;
@@ -530,7 +542,7 @@ input[type=text], input[type=email], input[type=tel] {
 }
 .para{
     width: 70%;
-    height: 300px;
+    height: 250px;
     background: #ffff;
     border-radius: 10px;
 }
@@ -624,7 +636,7 @@ input[type=text], input[type=email], input[type=tel] {
          display: block;
          position: absolute;
          top: 10px;
-         right: 50px;
+         right: 5px;
          cursor:pointer;
       }
 
@@ -640,7 +652,7 @@ input[type=text], input[type=email], input[type=tel] {
     
     .logistic-info p{
         color: #ffff;
-        font-size: 10px;
+        font-size: 16px;
     }
 
     .title h2{
@@ -655,6 +667,11 @@ input[type=text], input[type=email], input[type=tel] {
 
     .lgbg{
         height: 1600px;
+    }
+
+    input[type=textarea]{
+        width: 100%;
+        margin-top: 0;
     }
 
 }
@@ -725,7 +742,7 @@ input[type=text], input[type=email], input[type=tel] {
            display: block;
            position: absolute;
            top: 10px;
-           right: 50px;
+           right: 5px;
            cursor: pointer;
         }
   
@@ -741,7 +758,7 @@ input[type=text], input[type=email], input[type=tel] {
       
       .logistic-info p{
           color: #ffff;
-          font-size: 10px;
+          font-size: 16px;
       }
   
       .title h2{
@@ -757,6 +774,12 @@ input[type=text], input[type=email], input[type=tel] {
       .lgbg{
           height: 1600px;
       }
+
+      input[type=textarea]{
+        width: 100%;
+        margin-top: 0;
+    }
+
   
 }
 
@@ -826,7 +849,7 @@ input[type=text], input[type=email], input[type=tel] {
            display: block;
            position: absolute;
            top: 10px;
-           right: 50px;
+           right: 5px;
            cursor: pointer;
         }
   
@@ -858,6 +881,12 @@ input[type=text], input[type=email], input[type=tel] {
       .lgbg{
           height: 1600px;
       }
+
+      input[type=textarea]{
+        width: 100%;
+        margin-top: 0;
+    }
+
   
 }
 
