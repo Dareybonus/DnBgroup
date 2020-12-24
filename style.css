@@ -303,10 +303,11 @@ ul li:hover ul li{
 .contact-wrapper{
     width: 100%;
     background-color:#0C1933 ;
-    height: 650px;
+    height: 100vh;
     margin-top: 50px;
     padding:10px 50px;
     color: #fff;
+    overflow: hidden;
 }
 
 .contact-us h2,p{
