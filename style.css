@@ -107,8 +107,9 @@ ul li:hover ul li{
 }
 
 .janitorial{
-    height: 600px;
-    margin-bottom: 50px;
+    
+    margin: 0 -5px;
+ 
 }
 
 .janitorial:after {
@@ -127,6 +128,7 @@ ul li:hover ul li{
     float: left;
     width: 33.33%;
     padding: 0 30px;
+    height: 600px;
 }
 
 
