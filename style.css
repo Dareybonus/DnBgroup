@@ -3,8 +3,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,600&display=swap');
 
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -37,8 +37,12 @@ p{
     display:none;
     font-size: 50px;
     color:#000;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    cursor:pointer;
+    transform: translate(-10px);
 }
-
 
 .nav-wrapper ul{
     height: 40px;
@@ -108,7 +112,7 @@ ul li:hover ul li{
 }
 
 .janitorial{
-    
+    width: 100%;
     margin: 0 -5px;
  
 }
@@ -578,6 +582,7 @@ input[type=text], input[type=email], input[type=tel] {
     .contact-wrapper{
         height: 1200px;
         padding: 5px 50px;
+        width: 100%;
     }
 
     .form{
@@ -630,10 +635,6 @@ input[type=text], input[type=email], input[type=tel] {
 
       .hamburger{
          display: block;
-         position: absolute;
-         top: 10px;
-         right: 0;
-         cursor:pointer;
       }
 
       .card{
@@ -642,12 +643,9 @@ input[type=text], input[type=email], input[type=tel] {
 
       .logistic-info h2{
         font-size: 15px;
-        font-family: 'Montserrat' cursive, sans-serif;
-        color: #ffff;
     }
     
     .logistic-info p{
-        color: #ffff;
         font-size: 16px;
     }
 
@@ -684,6 +682,7 @@ input[type=text], input[type=email], input[type=tel] {
       .contact-wrapper{
           height: 1200px;
           padding: 5px 50px;
+          width: 100%;
       }
   
       .form{
@@ -703,23 +702,23 @@ input[type=text], input[type=email], input[type=tel] {
             width: 100%;
         }
   
-      .nav-wrapper  {
-      position: absolute;
-      top: 120px;
-      left: 0px;
-      width: 100%;
-      height: 500px; 
-      background:rgba(0,0,0,.8);
-      overflow: hidden;   
-      transition: all 2s ease;
-      }
+        .nav-wrapper {
+            position: absolute;
+            top: 120px;
+            left: 0px;
+            width: 100%;
+            height: 500px; 
+            background:rgba(0,0,0,.8);
+            overflow: hidden;   
+            transition: all 2s ease;
+            } 
        
   
-     .main-nav {
+        .main-nav {
           display: grid;
           place-items: center;
           gap: 30px;
-      }
+         }
   
       .main-nav i{
           display: none;
@@ -736,10 +735,6 @@ input[type=text], input[type=email], input[type=tel] {
   
         .hamburger{
            display: block;
-           position: absolute;
-           top: 10px;
-           right: 0px;
-           cursor: pointer;
         }
   
         .card{
@@ -748,12 +743,9 @@ input[type=text], input[type=email], input[type=tel] {
   
         .logistic-info h2{
           font-size: 20px;
-          font-family: 'Montserrat' cursive, sans-serif;
-          color: #ffff;
       }
       
       .logistic-info p{
-          color: #ffff;
           font-size: 16px;
       }
   
@@ -788,9 +780,10 @@ input[type=text], input[type=email], input[type=tel] {
         max-width: 100%;
       }
   
-      .contact-wrapper{
+    .contact-wrapper{
           height: 1200px;
           padding: 5px 50px;
+          width: 100%;
       }
   
       .form{
@@ -803,7 +796,7 @@ input[type=text], input[type=email], input[type=tel] {
           margin-bottom: 20px;
         }
   
-        .logo-nav{
+      .logo-nav{
             display: grid;
             height: 300px;
             margin: 10px;
@@ -841,26 +834,19 @@ input[type=text], input[type=email], input[type=tel] {
           border-radius: 10px;
       }
   
-        .hamburger{
+      .hamburger{
            display: block;
-           position: absolute;
-           top: 10px;
-           right: 0px;
-           cursor: pointer;
         }
   
-        .card{
+      .card{
             height: 100vh;
         }
   
-        .logistic-info h2{
+      .logistic-info h2{
           font-size: 20px;
-          font-family: 'Montserrat' cursive, sans-serif;
-          color: #ffff;
       }
       
       .logistic-info p{
-          color: #ffff;
           font-size: 10px;
       }
   
