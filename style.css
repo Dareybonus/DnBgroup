@@ -41,7 +41,6 @@ p{
     top: 10px;
     right: 0;
     cursor:pointer;
-    transform: translate(-10px);
 }
 
 .nav-wrapper ul{
