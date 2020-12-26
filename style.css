@@ -307,8 +307,6 @@ ul li:hover ul li{
 .contact-wrapper{
     margin: 0 -5px;
     background-color:#0C1933 ;
-    
-    margin-top: 50px;
     padding:10px 20px;
     color: #fff;
     overflow: hidden;
@@ -568,7 +566,7 @@ input[type=text], input[type=email], input[type=tel] {
     font-family: 'Poppins', cursive, Arial, Helvetica, sans-serif;
 }
 
-
+/*.........................media query......................*/
 
   @media screen and (max-width: 600px) {
     .service {
@@ -577,9 +575,8 @@ input[type=text], input[type=email], input[type=tel] {
     }
 
     .contact-wrapper{
-        height: 1200px;
+        height: max-content;
         padding: 5px 50px;
-        width: 100%;
     }
 
     .form{
@@ -677,9 +674,8 @@ input[type=text], input[type=email], input[type=tel] {
       }
   
       .contact-wrapper{
-          height: 1200px;
+          height: max-content;
           padding: 5px 50px;
-          width: 100%;
       }
   
       .form{
@@ -778,9 +774,8 @@ input[type=text], input[type=email], input[type=tel] {
       }
   
     .contact-wrapper{
-          height: 1200px;
+          height: max-content;
           padding: 5px 50px;
-          width: 100%;
       }
   
       .form{
